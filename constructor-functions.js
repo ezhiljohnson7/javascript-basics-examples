@@ -7,10 +7,13 @@ function Circle(radius){
 }
 
 const circle1 = new Circle(2);
+circle1.radius //2
 circle1.draw(); 
 const circle2 = new Circle(3);
+circle2.radius //3
 circle2.draw(); 
 const circle3 = new Circle(4);
+circle.radius //3
 circle3.draw(); 
 
 function createCircle(radius){
